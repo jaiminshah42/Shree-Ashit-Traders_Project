@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.left-sidebar {
+  height: 100vh;
+  background: linear-gradient(to bottom, white white);
+}
+/* 
+.row{
+  margin-bottom: 5 !important;
+}
+
+.col {
+  padding: 5 !important;
+} */
+
+.heading-name{
+  padding-left: 25px;
+  font-style: bold;
+  color: white;
+  padding-top: 20px;
+}
+
+li.list-group-item a {
+  color: black;
+}
+
+li.list-group-item {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+li.list-group-item a:hover {
+  background-color: white;
+}
+
+.list-group-item:hover {
+  border-bottom: 2px solid black;
+  left: 0px;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 1s forwards;
+  animation-delay: 2s; 
+   box-shadow: 0px 0px 5px rgba(1, 1, 1, 5); /* Change box shadow on click */
+
+}
+
+.list-group-item {
+  /* background-color: white; */
+  font-style: bold;
+  font-size: 25px;
+  padding: 10px;
+  color: black;
+}
+
+.nav.nav-sidebar.list-group {
+  margin-top: 40px;
+}
+
+.maincontent{
+  margin-top: 45px;
+  padding: 20px 5px;
+}
+
+
+
+@media(max-width : 992px) {
+
+  .left-sidebar {
+      display: none;
+    }
+  
+}

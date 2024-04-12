@@ -1,0 +1,306 @@
+.header{
+  color: black;
+}
+
+.bcolor{
+  /* background: #181414ab; fallback for old browsers */
+  background-image: url('../images/img7.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: "Roboto", sans-serif;   
+  color: whitesmoke;
+  height: 100vh; /* Full height */
+  width: 100vw; /* Full width */
+  backdrop-filter: blur(5px); /* Apply blur */
+}
+.b{
+  background-color: black;
+  padding: 20px;
+}
+.card-content
+{
+    /* background: linear-gradient(to top, white, rgb(8, 182, 251)); */
+    background: transparent;
+    position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(32%);
+    -ms-transform: translateY(32%);
+    transform: translateY(32%);
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 5);
+
+   
+}
+
+.input-field>small{
+	font-size: 1.0rem;
+	color: black;
+}
+
+.input-field>span{
+  font-size: 1.5rem;
+  color: black;
+  float: left;
+}
+
+
+.error-msg{
+    background: #ff0000;
+    color: white ;
+    padding: 10px;
+  }
+
+input   
+{
+  color: black;
+}
+.section{
+  padding: 15px 10px;
+
+}
+
+/*-------------------------------------------------------------------------------Dashboard page css start-------------------------------------------------------------------------------*/
+.dash-btn div {
+  box-shadow: 0px 0px 10px rgba(1, 1, 1, 5); /* Add box shadow */
+  transition: box-shadow 0.3s ease; 
+}
+
+.dash-btn div:active {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08); /* Change items box shadow on click */
+}
+
+.white {
+  margin: 15px; 
+  padding: 40px;
+  border: 2px solid black; 
+  border-radius: 20px; 
+  font-size: 20px; 
+  background: linear-gradient(to right, #87CEEB, #4169E1);
+  color: black;
+}
+
+.section1{
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.4);
+ text-align: center;
+  margin-top: 10px;
+  box-shadow: 30px 3px 30px rgba(5, 2, 4, 0.5);
+  border: solid 5px black;
+  color: black;
+  padding: 100px;
+  border-radius: 30px;
+}
+.one{
+  padding: 10px;
+}
+
+
+/*-------------------------------------------------------------------------------left-sidebar-long css start-------------------------------------------------------------------------------*/
+.left-sidebar{
+background: linear-gradient(to right, #87CEEB, #4169E1);
+  height: 100%;
+  padding: 0px;
+  box-shadow: 10px 8px 10px rgba(5, 2, 4, 0.5);
+}
+.heading-name{
+  color: white;
+  padding-left: 0.5px;
+  text-align: center;
+  margin-right:10px;
+  
+}
+.heading-name:hover{
+  color: black;
+  box-shadow: 0px 0px 5px rgba(1, 1, 1, 5); /* Change box shadow on click */
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.list-group-item:active{
+background: linear-gradient(to right, #87CEEB, #4169E1);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+
+}
+.list-group-item:hover{
+background: linear-gradient(to right, #87CEEB, #4169E1);
+  color: black;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.list-group-item.active:active{
+background: linear-gradient(to right, #87CEEB, #4169E1);
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  border: none;
+  border-radius: 0px;
+}
+.list-group-item.active:hover{
+background: linear-gradient(to right, #87CEEB, #4169E1);
+  color: black;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+/*-------------------------------------------------------------------------------topnav.php css start-------------------------------------------------------------------------------*/
+body {
+  background-color: white;
+  /* background-image: url('../images/img7.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%; Center the background image vertically and horizontally */
+    /* background: #181414ab; fallback for old browsers */
+  background-image: url('../images/img7.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  font-family: "Roboto", sans-serif;   
+  color: whitesmoke;
+  height: 100vh; /* Full height */
+  width: 100vw; /* Full width */
+  backdrop-filter: blur(5px); /* Apply blur */
+}
+
+
+.n{
+  background: linear-gradient(to right, #87CEEB, #4169E1);
+
+  		/* margin-right:5px; */
+      margin-left: -12px;
+      box-shadow: 10px 8px 10px rgba(5, 2, 4, 0.5);
+      
+}
+.c{
+  color:black;
+}
+
+.d{
+  color:black;
+  margin-top: -10%;
+}
+
+
+
+/*-------------------------------------------------------------------------------product-list.php css start-------------------------------------------------------------------------------*/
+.section2{
+  padding: 10px 20px;
+  /* background: linear-gradient(to right, #87CEEB, #4169E1); */
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+
+  margin-top: 10px;
+  box-shadow: 30px 3px 30px rgba(5, 2, 4, 0.5);
+  border: solid 2px black;
+  border-radius: 30px;
+}  
+.section3{
+  padding: 15px 25px;
+}
+.heading{
+          color: black;
+        }
+
+        .btn{
+          box-shadow: 0px 0px 5px rgba(1, 1, 1, 5);
+          background-color: black ;
+        }
+        .section4{
+          padding: 20px;
+          color: black;
+
+        }
+        .newbadge{
+          background-color:black;
+          color:white;
+          box-shadow: 0px 0px 5px rgba(1, 1, 1, 5);
+
+        }
+
+/*-------------------------------------------------------------------------------product-add.php css start-------------------------------------------------------------------------------*/
+
+.section5{
+  /* background: linear-gradient(to right, #87CEEB, #4169E1); */
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  box-shadow: 30px 3px 30px rgba(5, 2, 4, 0.5);
+  border: solid 2px black;
+  border-radius: 30px;
+
+}
+#name{
+  color: black; 
+  width: 70%; 
+}
+
+/*-------------------------------------------------------------------------------category-list.php css start-------------------------------------------------------------------------------*/
+
+.section6{
+  /* background: linear-gradient(to right, #87CEEB, #4169E1); */
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  box-shadow: 30px 3px 30px rgba(5, 2, 4, 0.5);
+  border: solid 2px black;
+  border-radius: 30px;
+
+
+}
+
+/*-------------------------------------------------------------------------------category-add.php css start-------------------------------------------------------------------------------*/
+.section7{
+  /* background: linear-gradient(to right, #87CEEB, #4169E1); */
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  box-shadow: 30px 3px 30px rgba(5, 2, 4, 0.5);
+  border: solid 2px black;
+  border-radius: 30px;
+  
+
+}
+.section8{
+  padding: 40px;
+}
+#long_desc{
+  color: black; 
+  width: 70%; 
+}
+/*-------------------------------------------------------------------------------order-list.php css start-------------------------------------------------------------------------------*/
+
+.section9{
+  /* background: linear-gradient(to right, #87CEEB, #4169E1); */
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 10px;
+  box-shadow: 30px 3px 30px rgba(5, 2, 4, 0.5);
+  border: solid 2px black;
+  border-radius: 30px;
+}
+
+.section10{
+  padding: 20px;
+   color:black
+}
+
+/*-------------------------------------------------------------------------------add_banner.php css start-------------------------------------------------------------------------------*/
+table.centered {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table.centered th,
+table.centered td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+  text-align: left;
+}
+img.i {
+  max-width: 100px; /* Adjust the maximum width as needed */
+  max-height: 100px; /* Adjust the maximum height as needed */
+}
